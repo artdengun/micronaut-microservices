@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: book
+---
+testFramework: junit
+sourceLanguage: java
