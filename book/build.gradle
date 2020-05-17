@@ -30,6 +30,11 @@ dependencies {
     implementation "io.micronaut:micronaut-http-server-netty"
     implementation "io.micronaut:micronaut-http-client"
 
+    implementation "io.micronaut.configuration:micronaut-hibernate-jpa" 
+    implementation "io.micronaut.configuration:micronaut-jdbc-hikari" 
+    runtime "com.h2database:h2" 
+    implementation 'mysql:mysql-connector-java:5.1.16'
+
     implementation 'com.google.code.gson:gson:2.8.6'
 
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
